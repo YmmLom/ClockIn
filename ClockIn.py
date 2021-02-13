@@ -100,7 +100,7 @@ def sign_in(token):
         msg = parse.quote_plus(response.json()['msg'])
         Wxpush(msg)
 
-
+'''
 # 获取每日宿舍签到的signInId模块
 def get_signInId(token):
     url = 'http://zua.zhidiantianxia.cn/applets/signin/my'
@@ -163,3 +163,4 @@ if __name__ == "__main__":
             sign_in(token)
     else:
         pass
+'''
