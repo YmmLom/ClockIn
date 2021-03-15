@@ -3,6 +3,9 @@
 ## 更新
 - 1.31指点天下提交数据变化，修改后需要数据更少。
 
+## 推荐
+- 推荐使用腾讯云函数，可以部署好多好多个！~
+
 ## 食用方法
 
 1. 首先保证你有一个GitHub账号
@@ -21,10 +24,10 @@
 | DISTRICT    | 地区:如河南省-郑州市-金水区|
 | DEVICETOKEN | 你抓包得到的devicetoken|
 | SCKEY       | sever酱key|
-4. DEVICETOKEN获取方法。[AndroidHttpCapture安卓抓包软件下载](http://static.hk.darkal.cn/har/demo.apk)
-[操作视频](https://mp.weixin.qq.com/s/9ww2373nxj3JyV4o1VAvAw)
+4. DEVICETOKEN获取方法。[HttpCanary安卓抓包软件下载](http://u14.xainjo.com//apk/com.guoshi.httpcanary.apk)
+[操作视频](https://mp.weixin.qq.com/s/oBCQ2NERYptugLqviQWROA)
 
-5. sever酱使用参见[官网](http://sc.ftqq.com/3.version)。
+5. sever酱使用参见[官网](http://sc.ftqq.com/3.version)。因为微信发布公告将在4月底下线模板消息，Server酱开发了以企业微信为主的多通道新版（ Turbo版 sct.ftqq.com ）。旧版将在4月后下线，请尽快完成配置的更新。Qmsg和Wxpusher也可看看
 
 6. 开启 Actions 并触发每日自动执行
 Github Actions 默认处于关闭状态，大家请手动开启 Actions ，执行一次工作流，验证是否可以正常工作。
